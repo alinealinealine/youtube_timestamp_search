@@ -19,19 +19,19 @@ export const Footer: FC = () => {
         Created by
         <a
           className="hover:opacity-50 ml-1"
-          href="https://twitter.com/gauravrpjain"
+          href="https://twitter.com/aline_wengn"
           target="_blank"
           rel="noreferrer"
         >
-          Gaurav Jain 
+          Aline Weng
         </a>
-         and Aline Weng.
+         and Hanyang Liu.
       </div>
 
       <div className="flex space-x-4">
         <a
           className="flex items-center hover:opacity-50"
-          href="https://twitter.com/gauravrpjain"
+          href="https://twitter.com/aline_weng"
           target="_blank"
           rel="noreferrer"
         >
@@ -40,7 +40,6 @@ export const Footer: FC = () => {
 
         <a
           className="flex items-center hover:opacity-50"
-          href="https://github.com/gauravrpjain/dev-impact-gpt"
           target="_blank"
           rel="noreferrer"
         >

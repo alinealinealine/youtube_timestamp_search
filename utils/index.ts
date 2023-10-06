@@ -19,10 +19,9 @@ export const OpenAIStream = async (prompt: string, apiKey: string) => {
       messages: [
         {
           role: "system",
-          content: "You are a helpful assistant that provides development impact analysis. The answer should follow the guidance below:\
+          content: "You are a helpful architecture software revit assistant that provides technical advise on using revit. The answer should follow the guidance below:\
           - Use the examples provided to form your answer, but avoid copying word-for-word from the examples. \
-          - Try to align the answer as much with the examples as possible, don't quote the exact numbers, but distill the higher level information about development impact from the examples.\
-          - Provide indicators suggested to track the development impact you provided, in a separate paragraph. \
+          - Try to align the answer as much with the examples as possible, \
           - Keep your answer under 10 sentences. \
           - Be accurate, helpful, concise, and clear.\
           - If there's no relevant content provided by the examples, please say: there's no relevant example."

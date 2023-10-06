@@ -9,24 +9,10 @@ export const Navbar: FC = () => {
           className="hover:opacity-50"
           href="https://dev-impact-gpt.vercel.app"
         >
-          Development Impact GPT
+          Revit AI Assistant
         </a>
       </div>
-      <div>
-        <a
-          className="flex items-center hover:opacity-50"
-          href="https://disclosures.ifc.org/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="hidden sm:flex">disclosures.ifc.org</div>
 
-          <IconExternalLink
-            className="ml-1"
-            size={20}
-          />
-        </a>
-      </div>
     </div>
   );
 };

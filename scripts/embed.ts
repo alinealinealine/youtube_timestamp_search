@@ -30,7 +30,7 @@ const generateEmbeddings = async (essays: PGEssay[]) => {
       const [{ embedding }] = embeddingResponse.data.data;
 
       const { data, error } = await supabase
-        .from("dev_impt")
+        .from("youtube")
         .insert({
           essay_title: chunk.essay_title,
           essay_url: chunk.essay_url,
